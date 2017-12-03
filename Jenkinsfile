@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker 'node:9.0.0-alpine' }
+    agent { docker 'node:8.9.1-alpine' }
     stages {
         stage('build') {
             steps {
